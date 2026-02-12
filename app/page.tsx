@@ -1,5 +1,6 @@
 /*import Image from "next/image";*/
 import Intro from "@/components/intro";
+import AccordionUI from "@/layout/ui/accordion";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black py-8">    
@@ -11,6 +12,7 @@ export default function Home() {
           <li className = "p-2">Bullet Point 2</li><p>Description</p>
           <li className = "p-2">Bullet Point 3</li><p>Description</p>
         </ul> 
+      <AccordionUI />
       </main>
   
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-start justify-start py-32 px-16 bg-white dark:bg-black sm:items-start">
@@ -20,7 +22,7 @@ export default function Home() {
           <li className = "p-2">Bullet Point 1</li><p>Description</p>
           <li className = "p-2">Bullet Point 2</li><p>Description</p>
           <li className = "p-2">Bullet Point 3</li><p>Description</p>
-        </ul>    
+        </ul>
     </main>
   </div>       
   );
