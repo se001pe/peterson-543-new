@@ -2,7 +2,7 @@
 import React from 'react';
 const Footer: React.FC = () => {
 return (        
-    <p className = "text-base">&copy2006. All rights reserved</p>
+    <footer className = "w-full bg-zinc-900 text-white text-sm text-center">&copy;2006. All rights reserved</footer>
     );
 };
 export default Footer;
