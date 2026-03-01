@@ -1,7 +1,6 @@
 /*import Image from "next/image";*/
 import Intro from "@/components/intro";
 import AccordionUI from "@/layout/ui/accordion";
-import ButtonUI from "@/layout/ui/button";
 export default function Home() {
   return (
     <div className="flex gap-6"> 
@@ -13,7 +12,6 @@ export default function Home() {
           <li className = "p-2">Bullet Point 2</li><p>Description</p>
           <li className = "p-2">Bullet Point 3</li><p>Description</p>
         </ul>
-        <ButtonUI />
     </div>
   </div>       
   );
