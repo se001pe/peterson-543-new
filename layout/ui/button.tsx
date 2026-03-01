@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 const ButtonUI: React.FC = () => { 
     return (
         <div>
-            <Button variant = "contained"> Submit<FaChevronRight/> </Button>
+        <Button variant = "contained"> Submit<FaChevronRight/> </Button>
         </div>        
     );
   };
