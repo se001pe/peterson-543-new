@@ -8,6 +8,12 @@ return (
         <div className = "flex flex-row p-6">
             <h1 className = "text-4xl font-bold">About AITE Pathways</h1>
     </div>
+    <Image
+        src = "/AITESpring2022-1.jpg"
+        alt = "About AITE"
+        width = {700}
+        height = {500}
+    />
         <div className = "flex flex-row p-6">
             <h4 className = "text-base">AITE is an interdistrict magnet high school located in Stamford, CT. AITE puts a focus on
             preparing students with 21st century skills through exposure to a technology-rich curriculum. AITE has recently transitioned 
