@@ -1,0 +1,4 @@
+[
+    {"id": 1, "courseName" : "Introduction to Computer Science", "teacher": "Sean Peterson"},
+    {"id": 2, "courseName" : "PLTW Digital Electronics", "teacher" : "Sean Peterson"}
+]
